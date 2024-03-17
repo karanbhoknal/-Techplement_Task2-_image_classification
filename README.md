@@ -221,6 +221,8 @@ plt.title('Loss')
 
 
 
+
+
 image = 'corn.jpg'
 
 image = tf.keras.utils.load_img(image, target_size=(img_height,img_width))
@@ -231,13 +233,17 @@ img_bat=tf.expand_dims(img_arr,0)
 
 
 
+
 predict = model.predict(img_bat)
+
 
 
 score = tf.nn.softmax(predict)
 
 
+
 print('Veg/Fruit in image is {} with accuracy of {:0.2f}'.format(data_cat[np.argmax(score)],np.max(score)*100))
+
 
 
 model.save('Image_classify.keras')
