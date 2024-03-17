@@ -1,1 +1,3 @@
-# -Techplement_Task2-_image_classification
+# Project Name = Image REcogination or object Detection 
+# Image Classification Task 
+
