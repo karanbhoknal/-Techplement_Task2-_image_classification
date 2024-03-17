@@ -308,3 +308,8 @@ st.write('Veg/Fruit in image is ' + data_cat[np.argmax(score)])
 st.write('With accuracy of ' + str(np.max(score)*100))
 
 
+
+# How to run this code on vscode terminal 
+
+1. python -m streamlit run app.py
+
