@@ -1,3 +1,3 @@
-# Project Name = Image REcogination or object Detection 
+# Project Name = Image Recogination or object Detection 
 # Image Classification Task 
 
